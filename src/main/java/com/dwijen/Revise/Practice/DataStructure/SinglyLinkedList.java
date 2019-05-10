@@ -25,8 +25,8 @@ public class SinglyLinkedList {
          return top == null;
      }
 
-     public void deleteNode(){
-
+     public void deleteNode(int val){
+        //This will search and delete the node
      }
 
      public void printAllNodes(){
