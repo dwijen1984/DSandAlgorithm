@@ -50,7 +50,7 @@ public class LinkedList {
         l.add(2);
         l.add(3);
         l.add(4);
-        l.printAllNodes();
+        //l.printAllNodes();
         l.remove(2);
         l.printAllNodes();
     }

@@ -102,7 +102,7 @@ public class PrefixSerach {
         return true;
     }
     /*
-    Idea is to find common profix
+    Idea is to find common prefix
     lets say add 1. tes 2. testing 3. tested
     and find longest in input String "testingSuccess" the o/p : testing
     and find longest in input String "testedSuccess" the o/p : tested

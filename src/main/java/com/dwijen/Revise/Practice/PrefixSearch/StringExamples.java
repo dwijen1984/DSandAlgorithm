@@ -32,7 +32,7 @@ public class StringExamples {
         Map<Character, Integer> mapCountOccurance1 = new HashMap<Character, Integer>();
         ValueF v= new ValueF(mapCountOccurance1);
         TreeMap<Character, Integer> tmap = new TreeMap<Character, Integer>(v);
-        //tmap.putAll(mapCountOccurance1);
+        tmap.putAll(mapCountOccurance1);
         tmap.entrySet().stream().forEach(System.out::println);
         tmap.keySet().stream().forEach(System.out::println);
 

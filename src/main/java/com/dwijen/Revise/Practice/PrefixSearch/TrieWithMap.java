@@ -81,7 +81,8 @@ public class TrieWithMap {
         TrieWithMap dict = new TrieWithMap();
 
         dict.insert("caterer");
-        String input = "cat.";
+        dict.insert("cat");
+        String input = "cat";
         System.out.print(input + ":   ");
         System.out.println(dict.search(input));
 

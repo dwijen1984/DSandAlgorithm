@@ -11,14 +11,13 @@ public class TriePrefixSearch {
 
         public boolean isLeaf;
 
-        public void setChildern(Map<Character, TrieNode> childern) {
-            this.childern = childern;
-        }
-
         public Map<Character, TrieNode> childern;
         public Character value;
         public Map<Character, TrieNode> getChildren(){
             return childern;
+        }
+        public void setChildern(Map<Character, TrieNode> childern) {
+            this.childern = childern;
         }
 
         public Character getValue() {

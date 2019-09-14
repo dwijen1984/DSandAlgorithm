@@ -13,13 +13,34 @@ public class AppTestLinkedList {
         sl.addTop(2);
         sl.addTop(1);
         sl.printAllNodes();
+        sl.deleteNode(1);
+        System.out.println();
+        sl.printAllNodes();
 
+        System.out.println("----------------");
         sl.deleteTop();
         sl.deleteTop();
 
 
         sl.printAllNodes();
 
+    }
+
+    @Test
+    public void testCircularLinkedList(){
+
+    }
+
+    @Test
+    public void testStack(){
+        Stack st = new Stack(4);
+        st.push(4);
+        st.push(3);
+        st.push(2);
+        st.push(1);
+        st.printAll();
+        st.pop();
+        st.printAll();
     }
 
 }
